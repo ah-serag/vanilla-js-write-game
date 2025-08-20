@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="write.css" />
+    <!-- // link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <div class="contanaierGame">
+
+      <div class="name">
+        Typing spead test game
+      </div>
+      
+      <div class="contanaier">
+       
+        <!-- // -->
+        <div class="divLvl">
+          <h4>choose level</h4>
+
+          <div class="chooseLvl">
+            <label for="Easy">
+              <input
+                type="radio"
+                id="Easy"
+                class="Easy"
+                name="level"
+                value="Easy"
+              />
+              easy
+            </label>
+
+            <label for="med">
+              <input
+                type="radio"
+                id="med"
+                name="level"
+                class="medium"
+                value="Medium"
+              />
+              meduim
+            </label>
+
+            <label for="hard">
+              <input
+                type="radio"
+                id="hard"
+                class="Hard"
+                name="level"
+                value="Hard"
+             
+              />
+              hard
+            </label>
+          </div>
+        </div>
+
+        <div class="masseage">
+          you are playing on
+          <span class="lvl"></span> lavel & you have
+          <span class="secound"></span> secound to type the world
+        </div>
+
+        <div class="starts">start playing</div>
+        <!-- // -->
+        <div class="the-world"></div>
+        <input type="text" class="input" />
+        <!-- // -->
+        <div class="writing-word"></div>
+        <!-- // -->
+        <div class="control">
+          <div class="time">
+            time left : <span class="spanTime"></span> secound
+          </div>
+        
+          <div class="score">
+            score: <span class="got"></span>from <span class="totlal"></span>
+          </div>
+        </div>
+<!-- gameover -->
+<div class="gameover" style="display: none">
+  <h1 class="title">Game Over</h1>
+  <div class="divProgress">
+    <span class="progress"></span>
+  </div>
+  <button class="btn">Try Again</button>
+</div>
+
+<!-- win -->
+<div class="win" style="display: none;">
+  <h2 class="title">You Win!</h2>
+  <div class="divProgress">
+    <span class="progress"></span>
+  </div>
+  <button class="btn">Finish</button>
+</div>
+      
+
+   </div>
+
+
+
+
+    <script src="write.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
